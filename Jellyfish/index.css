@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+@font-face{
+    src: url(../Jellyfish/fonts/Karma-Medium.ttf);
+    font-family: "karma";
+    src: url(../Jellyfish/fonts/Kameron-Regular.ttf);
+    font-family: "kameron";
+}
+
+.container{
+    background-image: url(../Jellyfish/jellyfish.png);
+    margin: auto;
+    width: 1440px;
+    height: 1024px;
+}
+
+.image{
+    width: 35px;
+    height: 35px;
+    margin-top: 69px;
+    margin-left: 51px;
+}
+
+.nav{
+    margin-left: 393px;
+    font-family: "karma";
+    font-size: 32px;
+    text-align: left;
+    font-weight: 600;
+    word-spacing: 60px;
+    margin-top: -30px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.container2{
+    display: flex;
+    width: 758px;
+    height: 36px;
+    margin-top: 589px;
+    margin-left: 273px;
+    color: white;
+}
+.arrow{
+    width: 79px;
+    height: 20px;
+    border: 2px;
+    margin-top: 32px;
+    margin-left: 30px;
+
+}
+
+.h1{
+    font-family: "karma";
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+h4{
+    font-family: "karma";
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-top: 170px;
+    margin-left: 70px;
+}
+li{
+    font-family: "karma";
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    margin-left: 50px;
+}
+
+.box{
+    display: flex;
+    margin-left: 1298px;
+    gap: 5px;
+}
+
+.insta, .fb, .mail{
+    width: 28px;
+    height: 28px;
+    margin-top: -50px;
+}
+
+.text{
+    font-family: "kameron";
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+    margin-top: -190px;
+    margin-left: 280px;
+
+}
